@@ -31,4 +31,4 @@ jobs:
         EMAIL_TO: ${{ secrets.EMAIL_TO }}
         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       run: |
-        python monitor(1).py
+        python monitor.py
