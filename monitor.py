@@ -182,7 +182,7 @@ def main():
             print(f"📊 Rank changed: #{last_rank} → #{chatgpt_rank}")
         
         # Send alert if ChatGPT is #1 and we haven't alerted yet
-        if chatgpt_rank == 1:
+        if chatgpt_rank == 2:
             if not alert_sent:
                 print(f"🎉 ChatGPT is #1! Sending alert...")
                 send_email_alert(chatgpt_name, chatgpt_rank)
